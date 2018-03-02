@@ -1,0 +1,193 @@
+/* Write your CSS below this line */
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500');
+
+body {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+section {
+	background-color: #FFD382;
+	margin: 50px 0 0 0;
+}
+
+header {
+	background: url(../../images/BookstoreInterior-copy.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	padding: 15px 0 0 0;
+	align-content: center center;
+	color: #E0A251;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+	font-size: 72px;
+	font-family: 'Cinzel', serif;
+
+}
+
+
+/* NAVIGATION */
+.navbar-default {
+    background-color: #E9AA51;
+	border: none;
+}
+
+.nav > li > a {
+    padding: 15px 30px;
+	display: block;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+	font-size: 24px;
+	align-content: center;
+}
+
+nav li a {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+nav li:hover {
+    background-color: #C1272C;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+}
+
+blockquote {
+	text-align: center;
+	border: none;
+	padding: 50px 0 0 0;
+	font-size: 36px;
+}
+
+h2 {
+	font-family: 'Cinzel', serif;
+	font-size: 32px;
+	text-align: center;
+	padding: 10px;
+}
+
+#about {
+	background-color: #FFD382;
+	font-size: 24px;
+}
+
+
+h4, h5 {
+	font-size: 24px;
+	text-align: center;
+}
+
+h5 {
+	padding: 25px 0;
+}
+
+#events {
+	padding: 50px 0;
+}
+
+ .carousel-caption {
+	 font-size: 42px;
+	 color: white;
+	 text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+ }
+
+#events img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 600px;
+	width: 1200px;
+
+}
+
+#menu {
+	padding-bottom: 30px;
+}
+
+#books {
+	padding-bottom: 30px;
+}
+
+#books img {
+	max-height: 500px;
+}
+
+
+#location {
+	background: url(../../images/BookstoreSiteFooter.jpeg);
+	bckground-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	font-size: 36px;
+	color: #E9AA51;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	text-align: center;
+}
+
+#location img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+ul.sm-menu {
+	list-style-type:none;
+	padding-left: 0;
+}
+
+ul.sm-menu li {
+	display: inline-block;
+}
+
+ul.sm-menu li a {
+	color: inherit;
+	padding: 5px;
+}
+
+
+@media only screen and (max-width: 769px) {
+	h1 {
+		font-size: 32px;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+	}
+
+	p, h4, h5 {
+		font-size: 20px;
+	}
+
+	#location p{
+		font-size: 20px;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
+	}
+
+	h2, blockquote {
+		font-size: 26px;
+	}
+
+	.img-responsive {
+		margin: 20px auto;
+		max-height: 300px !important;
+		width: auto !important;
+  }
+
+
+
+}
