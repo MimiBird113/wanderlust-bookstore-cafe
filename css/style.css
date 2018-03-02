@@ -12,9 +12,9 @@ section {
 }
 
 header {
-	background: url(../../images/BookstoreInterior-copy.png);
+	background: url('../img/BookstoreInterior-copy-okay.png');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: top center;
 }
 
@@ -38,19 +38,31 @@ h1 {
 
 /* NAVIGATION */
 .navbar-default {
-    background-color: #E9AA51;
+  background-color: #E9AA51;
 	border: none;
 }
 
 .nav > li > a {
-    padding: 15px 30px;
+  padding: 15px 30px;
 	display: block;
+
 }
 
+.nav li {
+	display: inline-block;
+
+}
+.navbar-nav{
+	list-style-type: none;
+
+}
 .navbar-default .navbar-nav > li > a {
-    color: black;
+  color: black;
 	font-size: 24px;
 	align-content: center;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
 }
 
 nav li a {
@@ -59,7 +71,7 @@ nav li a {
 }
 
 nav li:hover {
-    background-color: #C1272C;
+  background-color: #C1272C;
 	color: white;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -130,8 +142,8 @@ h5 {
 
 
 #location {
-	background: url(../../images/BookstoreSiteFooter.jpeg);
-	bckground-repeat: no-repeat;
+	background: url('../img/bookstore-site-footer.jpg');
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	min-height: 600px;
