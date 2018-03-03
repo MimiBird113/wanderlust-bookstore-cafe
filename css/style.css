@@ -116,20 +116,34 @@ h5 {
 
 #events {
 	padding: 50px 0;
+
 }
 
- .carousel-caption {
-	 font-size: 42px;
+#events h3 {
+	font-size: 42px;
+	color: white;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 1.5px black !important;
+}
+
+#color-change h3 {
+	color: black !important;
+	text-shadow: none !important;
+}
+
+ .carousel-caption  {
+	 font-size: 26px;
 	 color: white;
-	 text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+	 text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 1.5px black !important;
  }
+
+
 
 #events img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 600px;
-	width: 1200px;
+	width: auto !important;
 
 }
 
