@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500');
 
 body {
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Cormorant Garamond', serif !important;
 }
 
 section {
@@ -28,40 +28,36 @@ h1 {
 	text-align: center;
 	padding: 15px 0 0 0;
 	align-content: center center;
-	color: #E0A251;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black;
-	font-size: 72px;
-	font-family: 'Cinzel', serif;
+	color: #E0A251 !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 1px black !important;
+	font-size: 72px !important;
+	font-family: 'Cinzel', serif !important;
 
 }
 
 
 /* NAVIGATION */
 .navbar-default {
-  background-color: #E9AA51;
-	border: none;
+  background-color: #E9AA51 !important;
+	border: none !important;
 }
 
 .nav > li > a {
-  padding: 15px 30px;
-	display: block;
+  padding: 15px 30px !important;
+	display: block !important;
 
 }
 
-.nav li {
-	display: inline-block;
-
-}
 .navbar-nav{
-	list-style-type: none;
+	list-style-type: none !important;
 
 }
 .navbar-default .navbar-nav > li > a {
-  color: black;
+  color: black !important;
 	font-size: 24px;
-	align-content: center;
-	position: relative;
-	display: inline-block;
+	align-content: center !important;
+	position: relative !important;
+	display: inline-block !important;
 	text-decoration: none;
 }
 
@@ -70,6 +66,13 @@ h1 {
 nav li a {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+	background-color: #E9AA51;
+	color: black;
 }
 
 nav li:hover {
@@ -84,13 +87,13 @@ nav li:hover {
 
 blockquote {
 	text-align: center;
-	border: none;
+	border: none !important;
 	padding: 50px 0 0 0;
-	font-size: 36px;
+	font-size: 36px !important;
 }
 
 h2 {
-	font-family: 'Cinzel', serif;
+	font-family: 'Cinzel', serif !important;
 	font-size: 32px;
 	text-align: center;
 	padding: 10px;
