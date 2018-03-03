@@ -14,7 +14,7 @@ section {
 header {
 	background: url('../img/BookstoreInterior-copy-okay.png');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 	background-position: top center;
 }
 
@@ -64,6 +64,8 @@ h1 {
 	display: inline-block;
 	text-decoration: none;
 }
+
+
 
 nav li a {
     -webkit-transition-duration: 0.4s; /* Safari */
